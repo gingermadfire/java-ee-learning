@@ -11,4 +11,20 @@
         <servlet-name>HelloServlet</servlet-name>
         <url-pattern>/hello-servlet</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>JSPServlet</servlet-name>
+        <jsp-file>/hello-servlet.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>JSPServlet</servlet-name>
+        <url-pattern>/hello-jsp-servlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>RedirectServlet</servlet-name>
+        <jsp-file>/redirect.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RedirectServlet</servlet-name>
+        <url-pattern>/redirect-servlet</url-pattern>
+    </servlet-mapping>
 </web-app>
