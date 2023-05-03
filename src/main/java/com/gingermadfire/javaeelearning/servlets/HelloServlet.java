@@ -1,4 +1,4 @@
-package com.gingermadfire.javaeelearning;
+package com.gingermadfire.javaeelearning.servlets;
 
 import com.gingermadfire.javaeelearning.test.Cart;
 import jakarta.servlet.ServletException;
