@@ -5,7 +5,7 @@
          version="5.0">
     <servlet>
         <servlet-name>HelloServlet</servlet-name>
-        <servlet-class>com.gingermadfire.javaeelearning.HelloServlet</servlet-class>
+        <servlet-class>com.gingermadfire.javaeelearning.servlets.HelloServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>HelloServlet</servlet-name>
